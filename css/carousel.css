@@ -1,0 +1,37 @@
+.conteiner-fluid {
+    padding: 0;
+}
+
+#slide .carousel-item {
+    height: 91vh;
+    background: linear-gradient(to bottom, #2d3436, #636e72) !important;
+}
+
+#slide .carousel-caption {
+    top: 25%;
+}
+
+#slide .carousel-caption h2 {
+    margin-bottom: 2rem;
+}
+
+#slide .carousel-caption p {
+    font-weight: 300;
+    margin-bottom: 6rem;
+}
+
+.main-btn {
+    text-decoration: none;
+    background-color: #2d3436;
+    color: #fff;
+    width: 4rem;
+    height: 1.5rem;
+    padding: 0.3rem 0.5rem;
+    border: 0.1rem solid #fff;
+    border-radius: 0.3rem;
+}
+
+.main-btn:hover {
+    color: #fff;
+    border: transparent;
+}

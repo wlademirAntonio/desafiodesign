@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Ensino Médio com Habilitação em DS</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Ensino Médio DS</a>
         <button id="btn-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,8 +26,33 @@
         </div>
       </nav>
 
+      <div class="conteiner-fluid">
+        <div id="slide" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+          </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active w-100">
+                <div class="carousel-caption">
+                  <h2>Ensino Médio com Habilitação Técnico em Desenvolvimento de Sistemas</h2>
+                  <p>Deseja saber mais sobre o curso?</p>
+                  <a href="#" class="main-btn">Mais informações</a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+      </div>
+
     <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/menu.js"></script>
 
 </body>
