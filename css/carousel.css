@@ -1,21 +1,18 @@
-.conteiner-fluid {
-    padding: 0;
-}
 
-#slide .carousel-item {
+#carousel .carousel-item {
     height: 91vh;
     background: linear-gradient(to bottom, #2d3436, #636e72) !important;
 }
 
-#slide .carousel-caption {
-    top: 25%;
+#carousel .carousel-caption {
+    top: 30%;
 }
 
-#slide .carousel-caption h2 {
+#carousel .carousel-caption h2 {
     margin-bottom: 2rem;
 }
 
-#slide .carousel-caption p {
+#carousel .carousel-caption p {
     font-weight: 300;
     margin-bottom: 6rem;
 }
