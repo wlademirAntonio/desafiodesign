@@ -1,18 +1,18 @@
 
-#myCarousel .carousel-item {
-    height: 91vh;
+#carousel .carousel-item {
+    height: 92.8vh;
     background: linear-gradient(to bottom, #2d3436, #636e72) !important;
 }
 
-#myCarousel .carousel-caption {
+#carousel .carousel-caption {
     top: 30%;
 }
 
-#myCarousel .carousel-caption h2 {
+#carousel .carousel-caption h2 {
     margin-bottom: 2rem;
 }
 
-#myCarousel .carousel-caption p {
+#carousel .carousel-caption p {
     font-weight: 300;
     margin-bottom: 6rem;
 }
