@@ -112,3 +112,7 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+#lg_sobre {
+  text-align: right;
+}
